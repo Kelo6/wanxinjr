@@ -1,6 +1,6 @@
 # -Denv=dev -Dapollo.cluster=DEFAULT -Dserver.port=53050
 app:
-  id: consumer-service
+  id: account-service
 apollo:
   bootstrap:
     enabled: true
@@ -8,7 +8,7 @@ apollo:
 
 spring:
   application:
-    name: consumer-service
+    name: account-service
 
 logging:
   config: classpath:log4j2-dev.xml
