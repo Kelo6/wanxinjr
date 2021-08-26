@@ -1,0 +1,983 @@
+2021-08-21 12:19:02.119  INFO 13756 --- [main] c.c.f.apollo.portal.PortalApplication    : Starting PortalApplication v1.3.0 on DESKTOP-7V8A2CU with PID 13756 (started by "root" in E:\BaiduNetdiskDownload\资料-黑马程序员Java项目《万信金融》企业级开发实战\day01\资料\应用配置中心Apollo\资料\运行)
+2021-08-21 12:19:02.452  INFO 13756 --- [main] c.c.f.apollo.portal.PortalApplication    : The following profiles are active: github,auth
+2021-08-21 12:19:02.510  INFO 13756 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e9c97f0: startup date [Sat Aug 21 12:19:02 CST 2021]; root of context hierarchy
+2021-08-21 12:19:04.663  INFO 13756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6ad7d6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 12:19:04.850  INFO 13756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$7f5b45a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 12:19:04.870  INFO 13756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 12:19:04.874  INFO 13756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@42b8c3d5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 12:19:04.903  INFO 13756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$a42fe857] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 12:19:04.919  INFO 13756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 12:19:06.187  INFO 13756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-08-21 12:19:06.225  INFO 13756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-21 12:19:06.226  INFO 13756 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2021-08-21 12:19:06.237  INFO 13756 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_221\bin;D:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Kelo\AppData\Local\Microsoft\WindowsApps;;D:\Program Files\Microsoft VS Code\bin;.]
+2021-08-21 12:19:06.420  INFO 13756 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-21 12:19:06.420  INFO 13756 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3910 ms
+2021-08-21 12:19:07.181  INFO 13756 --- [localhost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-21 12:19:08.312  INFO 13756 --- [localhost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-21 12:19:08.434  INFO 13756 --- [localhost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-08-21 12:19:08.485  INFO 13756 --- [localhost-startStop-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-21 12:19:08.770  INFO 13756 --- [localhost-startStop-1] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2021-08-21 12:19:08.773  INFO 13756 --- [localhost-startStop-1] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-08-21 12:19:08.873  INFO 13756 --- [localhost-startStop-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2021-08-21 12:19:09.223  INFO 13756 --- [localhost-startStop-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-08-21 12:19:10.179  INFO 13756 --- [localhost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-21 12:19:11.356  INFO 13756 --- [localhost-startStop-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-08-21 12:19:11.886  INFO 13756 --- [localhost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : apollo.portal.envs = dev
+2021-08-21 12:19:11.887  INFO 13756 --- [localhost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : organizations = [{"orgId":"TEST1","orgName":"样例部门1"},{"orgId":"TEST2","orgName":"样例部门2"}]. Old value = null
+2021-08-21 12:19:11.889  INFO 13756 --- [localhost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : superAdmin = apollo. Old value = null
+2021-08-21 12:19:11.889  INFO 13756 --- [localhost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : api.readTimeout = 10000. Old value = null
+2021-08-21 12:19:11.889  INFO 13756 --- [localhost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : consumer.token.salt = someSalt. Old value = null
+2021-08-21 12:19:11.890  INFO 13756 --- [localhost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : admin.createPrivateNamespace.switch = true. Old value = null
+2021-08-21 12:19:11.890  INFO 13756 --- [localhost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : configView.memberOnly.envs = pro. Old value = null
+2021-08-21 12:19:12.277  INFO 13756 --- [localhost-startStop-1] o.s.s.p.JdbcUserDetailsManager           : No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2021-08-21 12:19:13.421  INFO 13756 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-08-21 12:19:13.423  INFO 13756 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2021-08-21 12:19:13.424  INFO 13756 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-08-21 12:19:13.424  INFO 13756 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-08-21 12:19:13.425  INFO 13756 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-08-21 12:19:13.426  INFO 13756 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2021-08-21 12:19:13.426  INFO 13756 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2021-08-21 12:19:13.427  INFO 13756 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'encodingFilter' to urls: [/*]
+2021-08-21 12:19:13.427  INFO 13756 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'consumerAuthenticationFilter' to urls: [/openapi/*]
+2021-08-21 12:19:13.427  INFO 13756 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-08-21 12:19:13.975  INFO 13756 --- [Apollo-ServiceLocator-1] c.c.f.apollo.core.MetaDomainConsts       : Located meta server address http://localhost:8080/ for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+2021-08-21 12:19:15.028  INFO 13756 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@456653bc, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c87ddd0, org.springframework.security.web.header.HeaderWriterFilter@707f7ff3, org.springframework.security.web.authentication.logout.LogoutFilter@3ea129e6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@9a9a635, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@79539b20, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a0ed187, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39877d82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@138cd87d, org.springframework.security.web.session.SessionManagementFilter@2de5bba4, org.springframework.security.web.access.ExceptionTranslationFilter@66f6b122, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@216eb4c6]
+2021-08-21 12:19:15.080 ERROR 13756 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed, maybe because of meta server down or configure wrong meta server address. env: DEV, meta server address: http://localhost:8080/
+
+com.ctrip.framework.apollo.common.exception.ServiceException: No available admin server. Maybe because of meta server down or all admin server down. Meta server address: http://localhost:8080/
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.getAdminServices(RetryableRestTemplate.java:175)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.execute(RetryableRestTemplate.java:93)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.get(RetryableRestTemplate.java:59)
+	at com.ctrip.framework.apollo.portal.api.AdminServiceAPI$HealthAPI.health(AdminServiceAPI.java:43)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.isUp(PortalSettings.java:126)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.run(PortalSettings.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2021-08-21 12:19:15.084 ERROR 13756 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed for 1 times which less than down threshold. down threshold:2, env: DEV, meta server address: http://localhost:8080/
+2021-08-21 12:19:15.205  INFO 13756 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:19:15.333  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e9c97f0: startup date [Sat Aug 21 12:19:02 CST 2021]; root of context hierarchy
+2021-08-21 12:19:15.447  WARN 13756 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-21 12:19:15.519  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/version]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getVersion()
+2021-08-21 12:19:15.521  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/app]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getApp()
+2021-08-21 12:19:15.522  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/net]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getNet()
+2021-08-21 12:19:15.523  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/server]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getServer()
+2021-08-21 12:19:15.533  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName:.+}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.ClusterController.deleteCluster(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.536  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ClusterDTO com.ctrip.framework.apollo.portal.controller.ClusterController.createCluster(java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.ClusterDTO)
+2021-08-21 12:19:15.538  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.ClusterDTO com.ctrip.framework.apollo.portal.controller.ClusterController.loadCluster(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.541  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.core.enums.Env> com.ctrip.framework.apollo.portal.controller.EnvController.envs()
+2021-08-21 12:19:15.548  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/items],methods=[PUT],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.ItemController.update(java.lang.String,java.lang.String,com.ctrip.framework.apollo.portal.entity.model.NamespaceSyncModel)
+2021-08-21 12:19:15.552  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/namespaces/{namespaceName}/diff],methods=[POST],consumes=[application/json]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.vo.ItemDiffs> com.ctrip.framework.apollo.portal.controller.ItemController.diff(com.ctrip.framework.apollo.portal.entity.model.NamespaceSyncModel)
+2021-08-21 12:19:15.553  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/syntax-check],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.ItemController.syntaxCheckText(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.portal.entity.model.NamespaceTextModel)
+2021-08-21 12:19:15.554  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/items],methods=[PUT],consumes=[application/json]}" onto public void com.ctrip.framework.apollo.portal.controller.ItemController.modifyItemsByText(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.portal.entity.model.NamespaceTextModel)
+2021-08-21 12:19:15.555  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/items],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.ItemDTO> com.ctrip.framework.apollo.portal.controller.ItemController.findItems(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.556  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/items/{itemId}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.portal.controller.ItemController.deleteItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)
+2021-08-21 12:19:15.557  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/item],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.ItemController.updateItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.ItemDTO)
+2021-08-21 12:19:15.558  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/items],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.ItemDTO> com.ctrip.framework.apollo.portal.controller.ItemController.findBranchItems(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.558  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/item],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ItemDTO com.ctrip.framework.apollo.portal.controller.ItemController.createItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.ItemDTO)
+2021-08-21 12:19:15.565  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/organizations]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.vo.Organization> com.ctrip.framework.apollo.portal.controller.OrganizationController.loadOrganization()
+2021-08-21 12:19:15.567  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/releases],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ReleaseDTO com.ctrip.framework.apollo.portal.controller.ReleaseController.createRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.portal.entity.model.NamespaceReleaseModel)
+2021-08-21 12:19:15.569  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/releases/compare],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.ReleaseCompareResult com.ctrip.framework.apollo.portal.controller.ReleaseController.compareRelease(java.lang.String,long,long)
+2021-08-21 12:19:15.570  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/releases/all],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.bo.ReleaseBO> com.ctrip.framework.apollo.portal.controller.ReleaseController.findAllReleases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2021-08-21 12:19:15.570  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/releases/{releaseId}/rollback],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.ReleaseController.rollback(java.lang.String,long)
+2021-08-21 12:19:15.571  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/releases/active],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.ReleaseDTO> com.ctrip.framework.apollo.portal.controller.ReleaseController.findActiveReleases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2021-08-21 12:19:15.571  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/releases],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ReleaseDTO com.ctrip.framework.apollo.portal.controller.ReleaseController.createGrayRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.portal.entity.model.NamespaceReleaseModel)
+2021-08-21 12:19:15.572  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sso_heartbeat],methods=[GET]}" onto public void com.ctrip.framework.apollo.portal.controller.SsoHeartbeatController.heartbeat(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-08-21 12:19:15.577  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId:.+}],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.AppController.update(java.lang.String,com.ctrip.framework.apollo.portal.entity.model.AppModel)
+2021-08-21 12:19:15.578  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.entity.App com.ctrip.framework.apollo.portal.controller.AppController.load(java.lang.String)
+2021-08-21 12:19:15.579  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps],methods=[POST]}" onto public com.ctrip.framework.apollo.common.entity.App com.ctrip.framework.apollo.portal.controller.AppController.create(com.ctrip.framework.apollo.portal.entity.model.AppModel)
+2021-08-21 12:19:15.580  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/envs/{env}],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.AppController.create(java.lang.String,com.ctrip.framework.apollo.common.entity.App)
+2021-08-21 12:19:15.580  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/miss_envs],methods=[GET]}" onto public com.ctrip.framework.apollo.common.http.MultiResponseEntity<com.ctrip.framework.apollo.core.enums.Env> com.ctrip.framework.apollo.portal.controller.AppController.findMissEnvs(java.lang.String)
+2021-08-21 12:19:15.581  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.entity.App> com.ctrip.framework.apollo.portal.controller.AppController.findApps(java.lang.String)
+2021-08-21 12:19:15.581  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/by-owner],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.entity.App> com.ctrip.framework.apollo.portal.controller.AppController.findAppsByOwner(java.lang.String,org.springframework.data.domain.Pageable)
+2021-08-21 12:19:15.581  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/navtree],methods=[GET]}" onto public com.ctrip.framework.apollo.common.http.MultiResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.EnvClusterInfo> com.ctrip.framework.apollo.portal.controller.AppController.nav(java.lang.String)
+2021-08-21 12:19:15.582  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId:.+}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.portal.controller.AppController.deleteApp(java.lang.String)
+2021-08-21 12:19:15.585  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/instances/by-namespace],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.PageDTO<com.ctrip.framework.apollo.common.dto.InstanceDTO> com.ctrip.framework.apollo.portal.controller.InstanceController.getByNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2021-08-21 12:19:15.586  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/instances/by-release],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.PageDTO<com.ctrip.framework.apollo.common.dto.InstanceDTO> com.ctrip.framework.apollo.portal.controller.InstanceController.getByRelease(java.lang.String,long,int,int)
+2021-08-21 12:19:15.591  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/instances/by-namespace-and-releases-not-in],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.InstanceDTO> com.ctrip.framework.apollo.portal.controller.InstanceController.getByReleasesNotIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.591  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/instances/by-namespace/count],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.Number> com.ctrip.framework.apollo.portal.controller.InstanceController.getInstanceCountByNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.593  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/lock],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.NamespaceLockDTO com.ctrip.framework.apollo.portal.controller.NamespaceLockController.getNamespaceLock(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.593  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/lock-info],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.LockInfo com.ctrip.framework.apollo.portal.controller.NamespaceLockController.getNamespaceLockInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.597  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/role_users],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.AppRolesAssignedUsers com.ctrip.framework.apollo.portal.controller.PermissionController.getAppRoles(java.lang.String)
+2021-08-21 12:19:15.597  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/namespaces/{namespaceName}/roles/{roleType}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.assignNamespaceEnvRoleToUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.598  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/namespaces/{namespaceName}/roles/{roleType}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.removeNamespaceEnvRoleFromUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.599  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/role_users],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.NamespaceRolesAssignedUsers com.ctrip.framework.apollo.portal.controller.PermissionController.getNamespaceRoles(java.lang.String,java.lang.String)
+2021-08-21 12:19:15.599  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/roles/{roleType}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.assignAppRoleToUser(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.600  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/permissions/root],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.PermissionCondition> com.ctrip.framework.apollo.portal.controller.PermissionController.hasRootPermission()
+2021-08-21 12:19:15.600  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/roles/{roleType}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.assignNamespaceRoleToUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.601  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/initPermission],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.initAppPermission(java.lang.String,java.lang.String)
+2021-08-21 12:19:15.606  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/namespaces/{namespaceName}/role_users],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.NamespaceEnvRolesAssignedUsers com.ctrip.framework.apollo.portal.controller.PermissionController.getNamespaceEnvRoles(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.608  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/roles/{roleType}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.removeNamespaceRoleFromUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.609  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/roles/{roleType}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.removeAppRoleFromUser(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.610  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/permissions/{permissionType}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.PermissionCondition> com.ctrip.framework.apollo.portal.controller.PermissionController.hasPermission(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.610  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/namespaces/{namespaceName}/permissions/{permissionType}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.PermissionCondition> com.ctrip.framework.apollo.portal.controller.PermissionController.hasPermission(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.611  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/permissions/{permissionType}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.PermissionCondition> com.ctrip.framework.apollo.portal.controller.PermissionController.hasPermission(java.lang.String,java.lang.String)
+2021-08-21 12:19:15.612  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin],methods=[GET]}" onto public java.lang.String com.ctrip.framework.apollo.portal.controller.SignInController.login(java.lang.String,java.lang.String)
+2021-08-21 12:19:15.612  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/commits],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.CommitDTO> com.ctrip.framework.apollo.portal.controller.CommitController.find(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2021-08-21 12:19:15.614  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/favorites],methods=[POST]}" onto public com.ctrip.framework.apollo.portal.entity.po.Favorite com.ctrip.framework.apollo.portal.controller.FavoriteController.addFavorite(com.ctrip.framework.apollo.portal.entity.po.Favorite)
+2021-08-21 12:19:15.614  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/favorites/{favoriteId}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.portal.controller.FavoriteController.deleteFavorite(long)
+2021-08-21 12:19:15.614  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/favorites],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.po.Favorite> com.ctrip.framework.apollo.portal.controller.FavoriteController.findFavorites(java.lang.String,java.lang.String,org.springframework.data.domain.Pageable)
+2021-08-21 12:19:15.615  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/favorites/{favoriteId}],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.FavoriteController.toTop(long)
+2021-08-21 12:19:15.621  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.bo.NamespaceBO> com.ctrip.framework.apollo.portal.controller.NamespaceController.findNamespaces(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.621  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/appnamespaces/{namespaceName:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.AppNamespaceDTO com.ctrip.framework.apollo.portal.controller.NamespaceController.findAppNamespace(java.lang.String,java.lang.String)
+2021-08-21 12:19:15.622  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.NamespaceBO com.ctrip.framework.apollo.portal.controller.NamespaceController.findNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.622  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/publish_info],methods=[GET]}" onto public java.util.Map<java.lang.String, java.util.Map<java.lang.String, java.lang.Boolean>> com.ctrip.framework.apollo.portal.controller.NamespaceController.getNamespacesPublishInfo(java.lang.String)
+2021-08-21 12:19:15.622  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/missing-namespaces],methods=[GET]}" onto public com.ctrip.framework.apollo.common.http.MultiResponseEntity<java.lang.String> com.ctrip.framework.apollo.portal.controller.NamespaceController.findMissingNamespaces(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.623  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/missing-namespaces],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.NamespaceController.createMissingNamespaces(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.623  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/associated-public-namespace],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.NamespaceBO com.ctrip.framework.apollo.portal.controller.NamespaceController.findPublicNamespaceForAssociatedNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.623  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/appnamespaces/{publicNamespaceName}/namespaces],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.NamespaceDTO> com.ctrip.framework.apollo.portal.controller.NamespaceController.getPublicAppNamespaceAllNamespaces(java.lang.String,java.lang.String,int,int)
+2021-08-21 12:19:15.624  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/appnamespaces/{namespaceName:.+}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.NamespaceController.deleteAppNamespace(java.lang.String,java.lang.String)
+2021-08-21 12:19:15.624  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/appnamespaces],methods=[POST]}" onto public com.ctrip.framework.apollo.common.entity.AppNamespace com.ctrip.framework.apollo.portal.controller.NamespaceController.createAppNamespace(java.lang.String,boolean,com.ctrip.framework.apollo.common.entity.AppNamespace)
+2021-08-21 12:19:15.624  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/appnamespaces/public],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.entity.AppNamespace> com.ctrip.framework.apollo.portal.controller.NamespaceController.findPublicAppNamespaces()
+2021-08-21 12:19:15.624  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName:.+}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.NamespaceController.deleteNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.625  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.NamespaceController.createNamespace(java.lang.String,java.util.List<com.ctrip.framework.apollo.portal.entity.model.NamespaceCreationModel>)
+2021-08-21 12:19:15.625  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/releases/histories],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.bo.ReleaseHistoryBO> com.ctrip.framework.apollo.portal.controller.ReleaseHistoryController.findReleaseHistoriesByNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2021-08-21 12:19:15.626  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/system-info/health],methods=[GET]}" onto public org.springframework.boot.actuate.health.Health com.ctrip.framework.apollo.portal.controller.SystemInfoController.checkHealth(java.lang.String)
+2021-08-21 12:19:15.627  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/system-info],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.SystemInfo com.ctrip.framework.apollo.portal.controller.SystemInfoController.getSystemInfo()
+2021-08-21 12:19:15.629  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/items/export],methods=[GET]}" onto public void com.ctrip.framework.apollo.portal.controller.ConfigsExportController.exportItems(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2021-08-21 12:19:15.630  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/items/import],methods=[POST]}" onto public void com.ctrip.framework.apollo.portal.controller.ConfigsExportController.importConfigFile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.multipart.MultipartFile)
+2021-08-21 12:19:15.632  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/consumers],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.entity.ConsumerToken com.ctrip.framework.apollo.portal.controller.ConsumerController.createConsumer(com.ctrip.framework.apollo.openapi.entity.Consumer,java.util.Date)
+2021-08-21 12:19:15.632  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/consumers/{token}/assign-role],methods=[POST]}" onto public java.util.List<com.ctrip.framework.apollo.openapi.entity.ConsumerRole> com.ctrip.framework.apollo.portal.controller.ConsumerController.assignNamespaceRoleToConsumer(java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.NamespaceDTO)
+2021-08-21 12:19:15.633  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/consumers/by-appId],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.entity.ConsumerToken com.ctrip.framework.apollo.portal.controller.ConsumerController.getConsumerTokenByAppId(java.lang.String)
+2021-08-21 12:19:15.634  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/merge],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ReleaseDTO com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.merge(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,com.ctrip.framework.apollo.portal.entity.model.NamespaceReleaseModel)
+2021-08-21 12:19:15.635  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.deleteBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.641  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.NamespaceBO com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.findBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.641  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.NamespaceDTO com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.createBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.645  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/rules],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.GrayReleaseRuleDTO com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.getBranchGrayRules(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.647  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/rules],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.updateBranchRules(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.GrayReleaseRuleDTO)
+2021-08-21 12:19:15.648  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/page-settings],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.PageSetting com.ctrip.framework.apollo.portal.controller.PageSettingController.getPageSetting()
+2021-08-21 12:19:15.650  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/server/config],methods=[POST]}" onto public com.ctrip.framework.apollo.portal.entity.po.ServerConfig com.ctrip.framework.apollo.portal.controller.ServerConfigController.createOrUpdate(com.ctrip.framework.apollo.portal.entity.po.ServerConfig)
+2021-08-21 12:19:15.650  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/server/config/{key:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.po.ServerConfig com.ctrip.framework.apollo.portal.controller.ServerConfigController.loadServerConfig(java.lang.String)
+2021-08-21 12:19:15.654  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{userId}],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.UserInfo com.ctrip.framework.apollo.portal.controller.UserInfoController.getUserByUserId(java.lang.String)
+2021-08-21 12:19:15.654  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.bo.UserInfo> com.ctrip.framework.apollo.portal.controller.UserInfoController.searchUsersByKeyword(java.lang.String,int,int)
+2021-08-21 12:19:15.655  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.UserInfo com.ctrip.framework.apollo.portal.controller.UserInfoController.getCurrentUserName()
+2021-08-21 12:19:15.657  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[POST]}" onto public void com.ctrip.framework.apollo.portal.controller.UserInfoController.createOrUpdateUser(com.ctrip.framework.apollo.portal.entity.po.UserPO)
+2021-08-21 12:19:15.659  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/logout],methods=[GET]}" onto public void com.ctrip.framework.apollo.portal.controller.UserInfoController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2021-08-21 12:19:15.662  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items/{key:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenItemDTO com.ctrip.framework.apollo.openapi.v1.controller.ItemController.getItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.662  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items/{key:.+}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.openapi.v1.controller.ItemController.deleteItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:19:15.663  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items/{key:.+}],methods=[PUT]}" onto public void com.ctrip.framework.apollo.openapi.v1.controller.ItemController.updateItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.OpenItemDTO,boolean,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:19:15.663  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenItemDTO com.ctrip.framework.apollo.openapi.v1.controller.ItemController.createItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.OpenItemDTO,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:19:15.664  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/apps/{appId}/envclusters],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.openapi.dto.OpenEnvClusterDTO> com.ctrip.framework.apollo.openapi.v1.controller.AppController.loadEnvClusterInfo(java.lang.String)
+2021-08-21 12:19:15.665  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/lock],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenNamespaceLockDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceController.getNamespaceLock(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.666  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.openapi.dto.OpenNamespaceDTO> com.ctrip.framework.apollo.openapi.v1.controller.NamespaceController.findNamespaces(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.667  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenNamespaceDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceController.loadNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.667  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/apps/{appId}/appnamespaces],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenAppNamespaceDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceController.createNamespace(java.lang.String,com.ctrip.framework.apollo.openapi.dto.OpenAppNamespaceDTO,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:19:15.668  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/merge],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.merge(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,com.ctrip.framework.apollo.openapi.dto.NamespaceReleaseDTO,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:19:15.669  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/releases],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.createRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.NamespaceReleaseDTO,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:19:15.671  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/gray-del-releases],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.createGrayDelRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.NamespaceGrayDelReleaseDTO,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:19:15.672  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/releases/latest],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.loadLatestActiveRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.672  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/releases],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.createGrayRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.NamespaceReleaseDTO,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:19:15.674  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.deleteBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:19:15.677  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenNamespaceDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.findBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.677  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenNamespaceDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.createBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:19:15.678  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/rules],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenGrayReleaseRuleDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.getBranchGrayRules(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:19:15.678  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/rules],methods=[PUT]}" onto public void com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.updateBranchRules(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.OpenGrayReleaseRuleDTO,java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:19:15.681  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-08-21 12:19:15.681  INFO 13756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-08-21 12:19:15.728  INFO 13756 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:19:15.728  INFO 13756 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:19:15.728  INFO 13756 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/img/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:19:15.729  INFO 13756 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/vendor/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:19:15.729  INFO 13756 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/scripts/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:19:15.729  INFO 13756 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/styles/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:19:15.729  INFO 13756 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/views/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:19:15.753  INFO 13756 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalDefaultExceptionHandler
+2021-08-21 12:19:15.818  INFO 13756 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-08-21 12:19:16.034  INFO 13756 --- [main] o.s.l.c.support.AbstractContextSource    : Property 'userDn' not set - anonymous context will be used for read-write operations
+2021-08-21 12:19:16.986  INFO 13756 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path ''
+2021-08-21 12:19:17.010  INFO 13756 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-08-21 12:19:17.012  INFO 13756 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-08-21 12:19:17.235  INFO 13756 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-08-21 12:19:17.248  INFO 13756 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2021-08-21 12:19:17.267  INFO 13756 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2021-08-21 12:19:17.373  INFO 13756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-08-21 12:19:17.377  INFO 13756 --- [main] c.c.f.apollo.portal.PortalApplication    : Started PortalApplication in 15.769 seconds (JVM running for 16.665)
+2021-08-21 12:19:18.744 ERROR 13756 --- [Apollo-ServiceLocator-1] c.c.f.a.p.c.AdminServiceAddressLocator   : Get admin server address from meta server failed. env: DEV, meta server address:http://localhost:8080/
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/services/admin": Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:696)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:644)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:296)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.getAdminServerAddress(AdminServiceAddressLocator.java:121)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.refreshServerAddressCache(AdminServiceAddressLocator.java:101)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.access$200(AdminServiceAddressLocator.java:27)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator$RefreshAdminServerAddressTask.run(AdminServiceAddressLocator.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:687)
+	... 13 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 26 common frames omitted
+
+2021-08-21 12:19:22.829 ERROR 13756 --- [Apollo-ServiceLocator-1] c.c.f.a.p.c.AdminServiceAddressLocator   : Get admin server address from meta server failed. env: DEV, meta server address:http://localhost:8080/
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/services/admin": Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:696)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:644)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:296)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.getAdminServerAddress(AdminServiceAddressLocator.java:121)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.refreshServerAddressCache(AdminServiceAddressLocator.java:101)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.access$200(AdminServiceAddressLocator.java:27)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator$RefreshAdminServerAddressTask.run(AdminServiceAddressLocator.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:687)
+	... 13 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 26 common frames omitted
+
+2021-08-21 12:19:25.096 ERROR 13756 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed, maybe because of meta server down or configure wrong meta server address. env: DEV, meta server address: http://localhost:8080/
+
+com.ctrip.framework.apollo.common.exception.ServiceException: No available admin server. Maybe because of meta server down or all admin server down. Meta server address: http://localhost:8080/
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.getAdminServices(RetryableRestTemplate.java:175)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.execute(RetryableRestTemplate.java:93)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.get(RetryableRestTemplate.java:59)
+	at com.ctrip.framework.apollo.portal.api.AdminServiceAPI$HealthAPI.health(AdminServiceAPI.java:43)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.isUp(PortalSettings.java:126)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.run(PortalSettings.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2021-08-21 12:19:25.096 ERROR 13756 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env is down because health check failed for 2 times, which equals to down threshold. env: DEV, meta server address: http://localhost:8080/
+2021-08-21 12:19:26.920 ERROR 13756 --- [Apollo-ServiceLocator-1] c.c.f.a.p.c.AdminServiceAddressLocator   : Get admin server address from meta server failed. env: DEV, meta server address:http://localhost:8080/
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/services/admin": Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:696)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:644)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:296)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.getAdminServerAddress(AdminServiceAddressLocator.java:121)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.refreshServerAddressCache(AdminServiceAddressLocator.java:101)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.access$200(AdminServiceAddressLocator.java:27)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator$RefreshAdminServerAddressTask.run(AdminServiceAddressLocator.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:687)
+	... 13 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 26 common frames omitted
+
+2021-08-21 12:21:10.586  INFO 14040 --- [main] c.c.f.apollo.portal.PortalApplication    : Starting PortalApplication v1.3.0 on DESKTOP-7V8A2CU with PID 14040 (started by "root" in E:\BaiduNetdiskDownload\资料-黑马程序员Java项目《万信金融》企业级开发实战\day01\资料\应用配置中心Apollo\资料\运行)
+2021-08-21 12:21:10.590  INFO 14040 --- [main] c.c.f.apollo.portal.PortalApplication    : The following profiles are active: github,auth
+2021-08-21 12:21:10.646  INFO 14040 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6e2f5057: startup date [Sat Aug 21 12:21:10 CST 2021]; root of context hierarchy
+2021-08-21 12:21:13.422  INFO 14040 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5880a968] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 12:21:13.605  INFO 14040 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$f12e71a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 12:21:13.622  INFO 14040 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 12:21:13.635  INFO 14040 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4528e756' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 12:21:13.650  INFO 14040 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$16031454] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 12:21:13.665  INFO 14040 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 12:21:14.871  INFO 14040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2021-08-21 12:21:14.922  INFO 14040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-21 12:21:14.924  INFO 14040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2021-08-21 12:21:14.943  INFO 14040 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_221\bin;D:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Kelo\AppData\Local\Microsoft\WindowsApps;;D:\Program Files\Microsoft VS Code\bin;.]
+2021-08-21 12:21:15.101  INFO 14040 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-21 12:21:15.103  INFO 14040 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4457 ms
+2021-08-21 12:21:15.921  INFO 14040 --- [localhost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-21 12:21:16.978  INFO 14040 --- [localhost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-21 12:21:17.133  INFO 14040 --- [localhost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-08-21 12:21:17.216  INFO 14040 --- [localhost-startStop-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-21 12:21:17.416  INFO 14040 --- [localhost-startStop-1] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2021-08-21 12:21:17.420  INFO 14040 --- [localhost-startStop-1] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-08-21 12:21:17.507  INFO 14040 --- [localhost-startStop-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2021-08-21 12:21:17.815  INFO 14040 --- [localhost-startStop-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-08-21 12:21:18.827  INFO 14040 --- [localhost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-21 12:21:19.952  INFO 14040 --- [localhost-startStop-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-08-21 12:21:20.336  INFO 14040 --- [localhost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : apollo.portal.envs = dev
+2021-08-21 12:21:20.340  INFO 14040 --- [localhost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : organizations = [{"orgId":"TEST1","orgName":"样例部门1"},{"orgId":"TEST2","orgName":"样例部门2"}]. Old value = null
+2021-08-21 12:21:20.343  INFO 14040 --- [localhost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : superAdmin = apollo. Old value = null
+2021-08-21 12:21:20.344  INFO 14040 --- [localhost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : api.readTimeout = 10000. Old value = null
+2021-08-21 12:21:20.345  INFO 14040 --- [localhost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : consumer.token.salt = someSalt. Old value = null
+2021-08-21 12:21:20.345  INFO 14040 --- [localhost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : admin.createPrivateNamespace.switch = true. Old value = null
+2021-08-21 12:21:20.346  INFO 14040 --- [localhost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : configView.memberOnly.envs = pro. Old value = null
+2021-08-21 12:21:20.882  INFO 14040 --- [localhost-startStop-1] o.s.s.p.JdbcUserDetailsManager           : No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2021-08-21 12:21:21.872  INFO 14040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-08-21 12:21:21.874  INFO 14040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2021-08-21 12:21:21.875  INFO 14040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-08-21 12:21:21.876  INFO 14040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-08-21 12:21:21.877  INFO 14040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-08-21 12:21:21.878  INFO 14040 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2021-08-21 12:21:21.878  INFO 14040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2021-08-21 12:21:21.879  INFO 14040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'encodingFilter' to urls: [/*]
+2021-08-21 12:21:21.880  INFO 14040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'consumerAuthenticationFilter' to urls: [/openapi/*]
+2021-08-21 12:21:21.880  INFO 14040 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-08-21 12:21:22.602  INFO 14040 --- [Apollo-ServiceLocator-1] c.c.f.apollo.core.MetaDomainConsts       : Located meta server address http://localhost:8080/ for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+2021-08-21 12:21:23.649  INFO 14040 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51d36508, org.springframework.security.web.context.SecurityContextPersistenceFilter@707f7ff3, org.springframework.security.web.header.HeaderWriterFilter@72572ee0, org.springframework.security.web.authentication.logout.LogoutFilter@7ccf2cbc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@46e6c13c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@9a9a635, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2de5bba4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c87ddd0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@239aad0a, org.springframework.security.web.session.SessionManagementFilter@7ad1430e, org.springframework.security.web.access.ExceptionTranslationFilter@45079b4b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10329974]
+2021-08-21 12:21:23.669 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed, maybe because of meta server down or configure wrong meta server address. env: DEV, meta server address: http://localhost:8080/
+
+com.ctrip.framework.apollo.common.exception.ServiceException: No available admin server. Maybe because of meta server down or all admin server down. Meta server address: http://localhost:8080/
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.getAdminServices(RetryableRestTemplate.java:175)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.execute(RetryableRestTemplate.java:93)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.get(RetryableRestTemplate.java:59)
+	at com.ctrip.framework.apollo.portal.api.AdminServiceAPI$HealthAPI.health(AdminServiceAPI.java:43)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.isUp(PortalSettings.java:126)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.run(PortalSettings.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2021-08-21 12:21:23.670 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed for 1 times which less than down threshold. down threshold:2, env: DEV, meta server address: http://localhost:8080/
+2021-08-21 12:21:23.818  INFO 14040 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:21:23.935  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6e2f5057: startup date [Sat Aug 21 12:21:10 CST 2021]; root of context hierarchy
+2021-08-21 12:21:24.011  WARN 14040 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-21 12:21:24.082  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/version]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getVersion()
+2021-08-21 12:21:24.085  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/server]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getServer()
+2021-08-21 12:21:24.086  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/net]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getNet()
+2021-08-21 12:21:24.087  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/app]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getApp()
+2021-08-21 12:21:24.110  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ClusterDTO com.ctrip.framework.apollo.portal.controller.ClusterController.createCluster(java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.ClusterDTO)
+2021-08-21 12:21:24.111  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.ClusterDTO com.ctrip.framework.apollo.portal.controller.ClusterController.loadCluster(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.112  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName:.+}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.ClusterController.deleteCluster(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.114  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.core.enums.Env> com.ctrip.framework.apollo.portal.controller.EnvController.envs()
+2021-08-21 12:21:24.118  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/items],methods=[PUT],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.ItemController.update(java.lang.String,java.lang.String,com.ctrip.framework.apollo.portal.entity.model.NamespaceSyncModel)
+2021-08-21 12:21:24.119  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/namespaces/{namespaceName}/diff],methods=[POST],consumes=[application/json]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.vo.ItemDiffs> com.ctrip.framework.apollo.portal.controller.ItemController.diff(com.ctrip.framework.apollo.portal.entity.model.NamespaceSyncModel)
+2021-08-21 12:21:24.119  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/items],methods=[PUT],consumes=[application/json]}" onto public void com.ctrip.framework.apollo.portal.controller.ItemController.modifyItemsByText(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.portal.entity.model.NamespaceTextModel)
+2021-08-21 12:21:24.120  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/items],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.ItemDTO> com.ctrip.framework.apollo.portal.controller.ItemController.findBranchItems(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.120  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/item],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.ItemController.updateItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.ItemDTO)
+2021-08-21 12:21:24.121  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/syntax-check],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.ItemController.syntaxCheckText(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.portal.entity.model.NamespaceTextModel)
+2021-08-21 12:21:24.122  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/items],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.ItemDTO> com.ctrip.framework.apollo.portal.controller.ItemController.findItems(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.122  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/item],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ItemDTO com.ctrip.framework.apollo.portal.controller.ItemController.createItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.ItemDTO)
+2021-08-21 12:21:24.123  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/items/{itemId}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.portal.controller.ItemController.deleteItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)
+2021-08-21 12:21:24.124  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/organizations]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.vo.Organization> com.ctrip.framework.apollo.portal.controller.OrganizationController.loadOrganization()
+2021-08-21 12:21:24.125  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/releases/{releaseId}/rollback],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.ReleaseController.rollback(java.lang.String,long)
+2021-08-21 12:21:24.126  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/releases/active],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.ReleaseDTO> com.ctrip.framework.apollo.portal.controller.ReleaseController.findActiveReleases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2021-08-21 12:21:24.128  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/releases],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ReleaseDTO com.ctrip.framework.apollo.portal.controller.ReleaseController.createGrayRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.portal.entity.model.NamespaceReleaseModel)
+2021-08-21 12:21:24.129  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/releases/all],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.bo.ReleaseBO> com.ctrip.framework.apollo.portal.controller.ReleaseController.findAllReleases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2021-08-21 12:21:24.129  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/releases],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ReleaseDTO com.ctrip.framework.apollo.portal.controller.ReleaseController.createRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.portal.entity.model.NamespaceReleaseModel)
+2021-08-21 12:21:24.130  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/releases/compare],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.ReleaseCompareResult com.ctrip.framework.apollo.portal.controller.ReleaseController.compareRelease(java.lang.String,long,long)
+2021-08-21 12:21:24.130  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sso_heartbeat],methods=[GET]}" onto public void com.ctrip.framework.apollo.portal.controller.SsoHeartbeatController.heartbeat(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-08-21 12:21:24.134  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId:.+}],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.AppController.update(java.lang.String,com.ctrip.framework.apollo.portal.entity.model.AppModel)
+2021-08-21 12:21:24.135  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.entity.App com.ctrip.framework.apollo.portal.controller.AppController.load(java.lang.String)
+2021-08-21 12:21:24.135  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/envs/{env}],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.AppController.create(java.lang.String,com.ctrip.framework.apollo.common.entity.App)
+2021-08-21 12:21:24.135  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps],methods=[POST]}" onto public com.ctrip.framework.apollo.common.entity.App com.ctrip.framework.apollo.portal.controller.AppController.create(com.ctrip.framework.apollo.portal.entity.model.AppModel)
+2021-08-21 12:21:24.136  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId:.+}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.portal.controller.AppController.deleteApp(java.lang.String)
+2021-08-21 12:21:24.136  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/navtree],methods=[GET]}" onto public com.ctrip.framework.apollo.common.http.MultiResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.EnvClusterInfo> com.ctrip.framework.apollo.portal.controller.AppController.nav(java.lang.String)
+2021-08-21 12:21:24.137  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.entity.App> com.ctrip.framework.apollo.portal.controller.AppController.findApps(java.lang.String)
+2021-08-21 12:21:24.137  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/miss_envs],methods=[GET]}" onto public com.ctrip.framework.apollo.common.http.MultiResponseEntity<com.ctrip.framework.apollo.core.enums.Env> com.ctrip.framework.apollo.portal.controller.AppController.findMissEnvs(java.lang.String)
+2021-08-21 12:21:24.138  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/by-owner],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.entity.App> com.ctrip.framework.apollo.portal.controller.AppController.findAppsByOwner(java.lang.String,org.springframework.data.domain.Pageable)
+2021-08-21 12:21:24.141  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/instances/by-namespace],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.PageDTO<com.ctrip.framework.apollo.common.dto.InstanceDTO> com.ctrip.framework.apollo.portal.controller.InstanceController.getByNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2021-08-21 12:21:24.141  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/instances/by-release],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.PageDTO<com.ctrip.framework.apollo.common.dto.InstanceDTO> com.ctrip.framework.apollo.portal.controller.InstanceController.getByRelease(java.lang.String,long,int,int)
+2021-08-21 12:21:24.142  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/instances/by-namespace/count],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.Number> com.ctrip.framework.apollo.portal.controller.InstanceController.getInstanceCountByNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.144  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/instances/by-namespace-and-releases-not-in],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.InstanceDTO> com.ctrip.framework.apollo.portal.controller.InstanceController.getByReleasesNotIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.144  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/lock],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.NamespaceLockDTO com.ctrip.framework.apollo.portal.controller.NamespaceLockController.getNamespaceLock(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.145  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/lock-info],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.LockInfo com.ctrip.framework.apollo.portal.controller.NamespaceLockController.getNamespaceLockInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.148  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/namespaces/{namespaceName}/permissions/{permissionType}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.PermissionCondition> com.ctrip.framework.apollo.portal.controller.PermissionController.hasPermission(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.148  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/permissions/{permissionType}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.PermissionCondition> com.ctrip.framework.apollo.portal.controller.PermissionController.hasPermission(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.149  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/permissions/{permissionType}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.PermissionCondition> com.ctrip.framework.apollo.portal.controller.PermissionController.hasPermission(java.lang.String,java.lang.String)
+2021-08-21 12:21:24.149  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/role_users],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.AppRolesAssignedUsers com.ctrip.framework.apollo.portal.controller.PermissionController.getAppRoles(java.lang.String)
+2021-08-21 12:21:24.149  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/initPermission],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.initAppPermission(java.lang.String,java.lang.String)
+2021-08-21 12:21:24.150  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/permissions/root],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.PermissionCondition> com.ctrip.framework.apollo.portal.controller.PermissionController.hasRootPermission()
+2021-08-21 12:21:24.150  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/namespaces/{namespaceName}/role_users],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.NamespaceEnvRolesAssignedUsers com.ctrip.framework.apollo.portal.controller.PermissionController.getNamespaceEnvRoles(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.151  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/namespaces/{namespaceName}/roles/{roleType}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.assignNamespaceEnvRoleToUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.151  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/namespaces/{namespaceName}/roles/{roleType}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.removeNamespaceEnvRoleFromUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.151  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/role_users],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.NamespaceRolesAssignedUsers com.ctrip.framework.apollo.portal.controller.PermissionController.getNamespaceRoles(java.lang.String,java.lang.String)
+2021-08-21 12:21:24.152  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/roles/{roleType}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.assignNamespaceRoleToUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.152  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/roles/{roleType}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.removeAppRoleFromUser(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.152  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/roles/{roleType}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.assignAppRoleToUser(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.153  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/roles/{roleType}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.removeNamespaceRoleFromUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.154  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin],methods=[GET]}" onto public java.lang.String com.ctrip.framework.apollo.portal.controller.SignInController.login(java.lang.String,java.lang.String)
+2021-08-21 12:21:24.154  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/commits],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.CommitDTO> com.ctrip.framework.apollo.portal.controller.CommitController.find(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2021-08-21 12:21:24.155  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/favorites],methods=[POST]}" onto public com.ctrip.framework.apollo.portal.entity.po.Favorite com.ctrip.framework.apollo.portal.controller.FavoriteController.addFavorite(com.ctrip.framework.apollo.portal.entity.po.Favorite)
+2021-08-21 12:21:24.156  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/favorites/{favoriteId}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.portal.controller.FavoriteController.deleteFavorite(long)
+2021-08-21 12:21:24.156  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/favorites/{favoriteId}],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.FavoriteController.toTop(long)
+2021-08-21 12:21:24.157  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/favorites],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.po.Favorite> com.ctrip.framework.apollo.portal.controller.FavoriteController.findFavorites(java.lang.String,java.lang.String,org.springframework.data.domain.Pageable)
+2021-08-21 12:21:24.161  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/appnamespaces/{publicNamespaceName}/namespaces],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.NamespaceDTO> com.ctrip.framework.apollo.portal.controller.NamespaceController.getPublicAppNamespaceAllNamespaces(java.lang.String,java.lang.String,int,int)
+2021-08-21 12:21:24.162  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/associated-public-namespace],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.NamespaceBO com.ctrip.framework.apollo.portal.controller.NamespaceController.findPublicNamespaceForAssociatedNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.162  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/appnamespaces/public],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.entity.AppNamespace> com.ctrip.framework.apollo.portal.controller.NamespaceController.findPublicAppNamespaces()
+2021-08-21 12:21:24.163  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/appnamespaces/{namespaceName:.+}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.NamespaceController.deleteAppNamespace(java.lang.String,java.lang.String)
+2021-08-21 12:21:24.163  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/appnamespaces],methods=[POST]}" onto public com.ctrip.framework.apollo.common.entity.AppNamespace com.ctrip.framework.apollo.portal.controller.NamespaceController.createAppNamespace(java.lang.String,boolean,com.ctrip.framework.apollo.common.entity.AppNamespace)
+2021-08-21 12:21:24.164  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName:.+}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.NamespaceController.deleteNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.165  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.NamespaceController.createNamespace(java.lang.String,java.util.List<com.ctrip.framework.apollo.portal.entity.model.NamespaceCreationModel>)
+2021-08-21 12:21:24.165  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.NamespaceBO com.ctrip.framework.apollo.portal.controller.NamespaceController.findNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.165  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/appnamespaces/{namespaceName:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.AppNamespaceDTO com.ctrip.framework.apollo.portal.controller.NamespaceController.findAppNamespace(java.lang.String,java.lang.String)
+2021-08-21 12:21:24.166  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.bo.NamespaceBO> com.ctrip.framework.apollo.portal.controller.NamespaceController.findNamespaces(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.166  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/publish_info],methods=[GET]}" onto public java.util.Map<java.lang.String, java.util.Map<java.lang.String, java.lang.Boolean>> com.ctrip.framework.apollo.portal.controller.NamespaceController.getNamespacesPublishInfo(java.lang.String)
+2021-08-21 12:21:24.167  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/missing-namespaces],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.NamespaceController.createMissingNamespaces(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.167  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/missing-namespaces],methods=[GET]}" onto public com.ctrip.framework.apollo.common.http.MultiResponseEntity<java.lang.String> com.ctrip.framework.apollo.portal.controller.NamespaceController.findMissingNamespaces(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.168  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/releases/histories],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.bo.ReleaseHistoryBO> com.ctrip.framework.apollo.portal.controller.ReleaseHistoryController.findReleaseHistoriesByNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2021-08-21 12:21:24.168  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/system-info/health],methods=[GET]}" onto public org.springframework.boot.actuate.health.Health com.ctrip.framework.apollo.portal.controller.SystemInfoController.checkHealth(java.lang.String)
+2021-08-21 12:21:24.169  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/system-info],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.SystemInfo com.ctrip.framework.apollo.portal.controller.SystemInfoController.getSystemInfo()
+2021-08-21 12:21:24.170  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/items/export],methods=[GET]}" onto public void com.ctrip.framework.apollo.portal.controller.ConfigsExportController.exportItems(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2021-08-21 12:21:24.170  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/items/import],methods=[POST]}" onto public void com.ctrip.framework.apollo.portal.controller.ConfigsExportController.importConfigFile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.multipart.MultipartFile)
+2021-08-21 12:21:24.171  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/consumers],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.entity.ConsumerToken com.ctrip.framework.apollo.portal.controller.ConsumerController.createConsumer(com.ctrip.framework.apollo.openapi.entity.Consumer,java.util.Date)
+2021-08-21 12:21:24.171  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/consumers/by-appId],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.entity.ConsumerToken com.ctrip.framework.apollo.portal.controller.ConsumerController.getConsumerTokenByAppId(java.lang.String)
+2021-08-21 12:21:24.172  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/consumers/{token}/assign-role],methods=[POST]}" onto public java.util.List<com.ctrip.framework.apollo.openapi.entity.ConsumerRole> com.ctrip.framework.apollo.portal.controller.ConsumerController.assignNamespaceRoleToConsumer(java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.NamespaceDTO)
+2021-08-21 12:21:24.173  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/merge],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ReleaseDTO com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.merge(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,com.ctrip.framework.apollo.portal.entity.model.NamespaceReleaseModel)
+2021-08-21 12:21:24.175  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.deleteBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.176  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.NamespaceDTO com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.createBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.183  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.NamespaceBO com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.findBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.184  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/rules],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.GrayReleaseRuleDTO com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.getBranchGrayRules(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.185  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/rules],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.updateBranchRules(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.GrayReleaseRuleDTO)
+2021-08-21 12:21:24.186  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/page-settings],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.PageSetting com.ctrip.framework.apollo.portal.controller.PageSettingController.getPageSetting()
+2021-08-21 12:21:24.187  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/server/config],methods=[POST]}" onto public com.ctrip.framework.apollo.portal.entity.po.ServerConfig com.ctrip.framework.apollo.portal.controller.ServerConfigController.createOrUpdate(com.ctrip.framework.apollo.portal.entity.po.ServerConfig)
+2021-08-21 12:21:24.188  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/server/config/{key:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.po.ServerConfig com.ctrip.framework.apollo.portal.controller.ServerConfigController.loadServerConfig(java.lang.String)
+2021-08-21 12:21:24.189  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/logout],methods=[GET]}" onto public void com.ctrip.framework.apollo.portal.controller.UserInfoController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2021-08-21 12:21:24.190  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{userId}],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.UserInfo com.ctrip.framework.apollo.portal.controller.UserInfoController.getUserByUserId(java.lang.String)
+2021-08-21 12:21:24.192  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.UserInfo com.ctrip.framework.apollo.portal.controller.UserInfoController.getCurrentUserName()
+2021-08-21 12:21:24.192  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.bo.UserInfo> com.ctrip.framework.apollo.portal.controller.UserInfoController.searchUsersByKeyword(java.lang.String,int,int)
+2021-08-21 12:21:24.193  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[POST]}" onto public void com.ctrip.framework.apollo.portal.controller.UserInfoController.createOrUpdateUser(com.ctrip.framework.apollo.portal.entity.po.UserPO)
+2021-08-21 12:21:24.194  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items/{key:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenItemDTO com.ctrip.framework.apollo.openapi.v1.controller.ItemController.getItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.195  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items/{key:.+}],methods=[PUT]}" onto public void com.ctrip.framework.apollo.openapi.v1.controller.ItemController.updateItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.OpenItemDTO,boolean,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:21:24.195  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenItemDTO com.ctrip.framework.apollo.openapi.v1.controller.ItemController.createItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.OpenItemDTO,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:21:24.195  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items/{key:.+}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.openapi.v1.controller.ItemController.deleteItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:21:24.196  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/apps/{appId}/envclusters],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.openapi.dto.OpenEnvClusterDTO> com.ctrip.framework.apollo.openapi.v1.controller.AppController.loadEnvClusterInfo(java.lang.String)
+2021-08-21 12:21:24.197  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenNamespaceDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceController.loadNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.197  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/apps/{appId}/appnamespaces],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenAppNamespaceDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceController.createNamespace(java.lang.String,com.ctrip.framework.apollo.openapi.dto.OpenAppNamespaceDTO,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:21:24.197  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/lock],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenNamespaceLockDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceController.getNamespaceLock(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.198  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.openapi.dto.OpenNamespaceDTO> com.ctrip.framework.apollo.openapi.v1.controller.NamespaceController.findNamespaces(java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.199  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/merge],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.merge(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,com.ctrip.framework.apollo.openapi.dto.NamespaceReleaseDTO,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:21:24.200  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/releases],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.createGrayRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.NamespaceReleaseDTO,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:21:24.200  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/releases],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.createRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.NamespaceReleaseDTO,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:21:24.201  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/releases/latest],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.loadLatestActiveRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.201  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/gray-del-releases],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.createGrayDelRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.NamespaceGrayDelReleaseDTO,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:21:24.203  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.deleteBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:21:24.203  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenNamespaceDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.createBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:21:24.204  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenNamespaceDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.findBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.208  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/rules],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenGrayReleaseRuleDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.getBranchGrayRules(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-21 12:21:24.208  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/rules],methods=[PUT]}" onto public void com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.updateBranchRules(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.OpenGrayReleaseRuleDTO,java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-08-21 12:21:24.211  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-08-21 12:21:24.211  INFO 14040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-08-21 12:21:24.273  INFO 14040 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:21:24.274  INFO 14040 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:21:24.275  INFO 14040 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/img/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:21:24.275  INFO 14040 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/vendor/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:21:24.275  INFO 14040 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/scripts/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:21:24.276  INFO 14040 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/styles/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:21:24.276  INFO 14040 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/views/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 12:21:24.335  INFO 14040 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalDefaultExceptionHandler
+2021-08-21 12:21:24.396  INFO 14040 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-08-21 12:21:24.540  INFO 14040 --- [main] o.s.l.c.support.AbstractContextSource    : Property 'userDn' not set - anonymous context will be used for read-write operations
+2021-08-21 12:21:25.580  INFO 14040 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path ''
+2021-08-21 12:21:25.646  INFO 14040 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-08-21 12:21:25.653  INFO 14040 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-08-21 12:21:25.810  INFO 14040 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-08-21 12:21:25.812  INFO 14040 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2021-08-21 12:21:25.820  INFO 14040 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2021-08-21 12:21:25.879  INFO 14040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2021-08-21 12:21:25.885  INFO 14040 --- [main] c.c.f.apollo.portal.PortalApplication    : Started PortalApplication in 15.807 seconds (JVM running for 16.796)
+2021-08-21 12:21:27.162 ERROR 14040 --- [Apollo-ServiceLocator-1] c.c.f.a.p.c.AdminServiceAddressLocator   : Get admin server address from meta server failed. env: DEV, meta server address:http://localhost:8080/
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/services/admin": Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:696)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:644)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:296)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.getAdminServerAddress(AdminServiceAddressLocator.java:121)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.refreshServerAddressCache(AdminServiceAddressLocator.java:101)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.access$200(AdminServiceAddressLocator.java:27)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator$RefreshAdminServerAddressTask.run(AdminServiceAddressLocator.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:687)
+	... 13 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 26 common frames omitted
+
+2021-08-21 12:21:31.249 ERROR 14040 --- [Apollo-ServiceLocator-1] c.c.f.a.p.c.AdminServiceAddressLocator   : Get admin server address from meta server failed. env: DEV, meta server address:http://localhost:8080/
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/services/admin": Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:696)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:644)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:296)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.getAdminServerAddress(AdminServiceAddressLocator.java:121)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.refreshServerAddressCache(AdminServiceAddressLocator.java:101)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.access$200(AdminServiceAddressLocator.java:27)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator$RefreshAdminServerAddressTask.run(AdminServiceAddressLocator.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:687)
+	... 13 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 26 common frames omitted
+
+2021-08-21 12:21:33.674 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed, maybe because of meta server down or configure wrong meta server address. env: DEV, meta server address: http://localhost:8080/
+
+com.ctrip.framework.apollo.common.exception.ServiceException: No available admin server. Maybe because of meta server down or all admin server down. Meta server address: http://localhost:8080/
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.getAdminServices(RetryableRestTemplate.java:175)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.execute(RetryableRestTemplate.java:93)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.get(RetryableRestTemplate.java:59)
+	at com.ctrip.framework.apollo.portal.api.AdminServiceAPI$HealthAPI.health(AdminServiceAPI.java:43)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.isUp(PortalSettings.java:126)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.run(PortalSettings.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2021-08-21 12:21:33.674 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env is down because health check failed for 2 times, which equals to down threshold. env: DEV, meta server address: http://localhost:8080/
+2021-08-21 12:21:35.342 ERROR 14040 --- [Apollo-ServiceLocator-1] c.c.f.a.p.c.AdminServiceAddressLocator   : Get admin server address from meta server failed. env: DEV, meta server address:http://localhost:8080/
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/services/admin": Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:696)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:644)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:296)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.getAdminServerAddress(AdminServiceAddressLocator.java:121)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.refreshServerAddressCache(AdminServiceAddressLocator.java:101)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator.access$200(AdminServiceAddressLocator.java:27)
+	at com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator$RefreshAdminServerAddressTask.run(AdminServiceAddressLocator.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:687)
+	... 13 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 26 common frames omitted
+
+2021-08-21 12:21:43.683 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed, maybe because of meta server down or configure wrong meta server address. env: DEV, meta server address: http://localhost:8080/
+
+com.ctrip.framework.apollo.common.exception.ServiceException: No available admin server. Maybe because of meta server down or all admin server down. Meta server address: http://localhost:8080/
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.getAdminServices(RetryableRestTemplate.java:175)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.execute(RetryableRestTemplate.java:93)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.get(RetryableRestTemplate.java:59)
+	at com.ctrip.framework.apollo.portal.api.AdminServiceAPI$HealthAPI.health(AdminServiceAPI.java:43)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.isUp(PortalSettings.java:126)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.run(PortalSettings.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2021-08-21 12:21:43.683 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env is down. env: DEV, failed times: 3, meta server address: http://localhost:8080/
+2021-08-21 12:21:45.640  INFO 14040 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-08-21 12:21:45.641  INFO 14040 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2021-08-21 12:21:45.660  INFO 14040 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2021-08-21 12:21:53.692 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed, maybe because of meta server down or configure wrong meta server address. env: DEV, meta server address: http://localhost:8080/
+
+com.ctrip.framework.apollo.common.exception.ServiceException: No available admin server. Maybe because of meta server down or all admin server down. Meta server address: http://localhost:8080/
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.getAdminServices(RetryableRestTemplate.java:175)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.execute(RetryableRestTemplate.java:93)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.get(RetryableRestTemplate.java:59)
+	at com.ctrip.framework.apollo.portal.api.AdminServiceAPI$HealthAPI.health(AdminServiceAPI.java:43)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.isUp(PortalSettings.java:126)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.run(PortalSettings.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2021-08-21 12:21:53.692 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env is down. env: DEV, failed times: 4, meta server address: http://localhost:8080/
+2021-08-21 12:22:03.700 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed, maybe because of meta server down or configure wrong meta server address. env: DEV, meta server address: http://localhost:8080/
+
+com.ctrip.framework.apollo.common.exception.ServiceException: No available admin server. Maybe because of meta server down or all admin server down. Meta server address: http://localhost:8080/
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.getAdminServices(RetryableRestTemplate.java:175)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.execute(RetryableRestTemplate.java:93)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.get(RetryableRestTemplate.java:59)
+	at com.ctrip.framework.apollo.portal.api.AdminServiceAPI$HealthAPI.health(AdminServiceAPI.java:43)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.isUp(PortalSettings.java:126)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.run(PortalSettings.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2021-08-21 12:22:03.700 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env is down. env: DEV, failed times: 5, meta server address: http://localhost:8080/
+2021-08-21 12:22:13.709 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed, maybe because of meta server down or configure wrong meta server address. env: DEV, meta server address: http://localhost:8080/
+
+com.ctrip.framework.apollo.common.exception.ServiceException: No available admin server. Maybe because of meta server down or all admin server down. Meta server address: http://localhost:8080/
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.getAdminServices(RetryableRestTemplate.java:175)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.execute(RetryableRestTemplate.java:93)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.get(RetryableRestTemplate.java:59)
+	at com.ctrip.framework.apollo.portal.api.AdminServiceAPI$HealthAPI.health(AdminServiceAPI.java:43)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.isUp(PortalSettings.java:126)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.run(PortalSettings.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2021-08-21 12:22:13.709 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env is down. env: DEV, failed times: 6, meta server address: http://localhost:8080/
+2021-08-21 12:22:23.858  INFO 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env revived because env health check success. env: DEV
+2021-08-21 12:30:20.475  INFO 14040 --- [Apollo-ConfigRefresher-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : organizations = [{"orgId":"TEST1","orgName":"样例部门1"},{"orgId":"TEST2","orgName":"样例部门2"},{"orgId":"TEST3","orgName":"样例部门3"}]. Old value = [{"orgId":"TEST1","orgName":"样例部门1"},{"orgId":"TEST2","orgName":"样例部门2"}]
+2021-08-21 12:47:20.640  INFO 14040 --- [Apollo-ConfigRefresher-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : organizations = [{"orgId":"micro_service","orgName":"黑马程序员微服务项目之战狼组"}]. Old value = [{"orgId":"TEST1","orgName":"样例部门1"},{"orgId":"TEST2","orgName":"样例部门2"},{"orgId":"TEST3","orgName":"样例部门3"}]
+2021-08-21 12:47:44.665 ERROR 14040 --- [http-nio-8070-exec-2] .c.f.a.c.c.GlobalDefaultExceptionHandler : namespaces not exist
+
+com.ctrip.framework.apollo.common.exception.BadRequestException: namespaces not exist
+	at com.ctrip.framework.apollo.portal.service.NamespaceService.findNamespaceBOs(NamespaceService.java:141)
+	at com.ctrip.framework.apollo.portal.service.NamespaceService$$FastClassBySpringCGLIB$$52703059.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.ctrip.framework.apollo.portal.service.NamespaceService$$EnhancerBySpringCGLIB$$d35a0153.findNamespaceBOs(<generated>)
+	at com.ctrip.framework.apollo.portal.controller.NamespaceController.findNamespaces(NamespaceController.java:90)
+	at com.ctrip.framework.apollo.portal.controller.NamespaceController$$FastClassBySpringCGLIB$$e26eeeab.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.ctrip.framework.apollo.portal.controller.NamespaceController$$EnhancerBySpringCGLIB$$3faacc79.findNamespaces(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+2021-08-21 12:47:44.672  WARN 14040 --- [http-nio-8070-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.ctrip.framework.apollo.common.exception.BadRequestException: namespaces not exist]
+2021-08-21 12:48:10.370 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.p.c.RetryableRestTemplate        : Http request failed, uri: /health, method: GET
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://192.168.31.160:8090/health": Connect to 192.168.31.160:8090 [/192.168.31.160] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 192.168.31.160:8090 [/192.168.31.160] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:696)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:644)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:296)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.doExecute(RetryableRestTemplate.java:193)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.execute(RetryableRestTemplate.java:98)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.get(RetryableRestTemplate.java:59)
+	at com.ctrip.framework.apollo.portal.api.AdminServiceAPI$HealthAPI.health(AdminServiceAPI.java:43)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.isUp(PortalSettings.java:126)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.run(PortalSettings.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.31.160:8090 [/192.168.31.160] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:687)
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 28 common frames omitted
+
+2021-08-21 12:48:10.370 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed, maybe because of meta server down or configure wrong meta server address. env: DEV, meta server address: http://localhost:8080/
+
+com.ctrip.framework.apollo.common.exception.ServiceException: Admin servers are unresponsive. meta server address: http://localhost:8080/, admin servers: [ServiceDTO{appName='APOLLO-ADMINSERVICE', instanceId='DESKTOP-7V8A2CU:apollo-adminservice:8090', homepageUrl='http://192.168.31.160:8090/'}]
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.execute(RetryableRestTemplate.java:118)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.get(RetryableRestTemplate.java:59)
+	at com.ctrip.framework.apollo.portal.api.AdminServiceAPI$HealthAPI.health(AdminServiceAPI.java:43)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.isUp(PortalSettings.java:126)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.run(PortalSettings.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2021-08-21 12:48:10.372 ERROR 14040 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed for 1 times which less than down threshold. down threshold:2, env: DEV, meta server address: http://localhost:8080/
+2021-08-21 12:48:11.883  INFO 14040 --- [Thread-8] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6e2f5057: startup date [Sat Aug 21 12:21:10 CST 2021]; root of context hierarchy
+2021-08-21 12:48:11.885  INFO 14040 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2021-08-21 12:48:11.885  INFO 14040 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2021-08-21 12:48:11.890  INFO 14040 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-21 12:48:11.891  INFO 14040 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-21 12:48:11.896  INFO 14040 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
