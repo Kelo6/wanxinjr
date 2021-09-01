@@ -8,9 +8,6 @@ import java.util.UUID;
  * <P>
  * 标的编码, 请求流水号生成工具
  * </p>
- *
- * @author wuzhao@itcast.cn
- * @since 2019/5/16
  */
 public class CodeNoUtil {
     /**
